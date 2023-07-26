@@ -1,146 +1,124 @@
 <!DOCTYPE htmlPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Confirmation</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,200;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
-    <style>
-      body,
-      table {
-        margin: 0;
-        font-size: 0.8rem;
-        font-family: "Nunito", "Helvetica Neue", sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Confirmation</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,200;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <style>
+    body,
+    table {
+      margin: 0;
+      font-size: 0.8rem;
+      font-family: "Nunito", "Helvetica Neue", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
+    }
+
+    .main-content {
+      width: 450px;
+    }
+
+    .p-50 {
+      padding: 30px 50px;
+      height: auto;
+    }
+
+    .button {
+      text-decoration: none;
+      background-color: #03a9f5;
+      color: #ffffff;
+      padding: 10px 40px;
+      border-radius: 3px;
+    }
+
+    .button:hover {
+      background-color: #31bfff;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .main-content {
+        width: 80%;
       }
 
-      p {
-        padding: 0;
-        margin: 0;
-      }
-
-      .main-content{
-          width: 450px;
-      }
-
-      .p-50{
-        padding: 30px 50px;
+      .p-50 {
+        padding: 30px 30px;
         height: auto;
       }
+    }
 
-      .button{
-        text-decoration: none;
-        background-color: #03a9f5;
-        color: #ffffff;
-        padding: 10px 40px;
-        border-radius: 3px;
-      }
+    @media only screen and (max-width: 400px) {}
+  </style>
+</head>
 
-      .button:hover{
-        background-color: #31bfff;
-      }
-
-      @media only screen and (max-width: 600px)  {
-        .main-content{
-          width: 80%;
-        }
-        
-        .p-50{
-          padding: 30px 30px;
-          height: auto;
-        }
-      }
-
-      @media only screen and (max-width: 400px)  {}
-
-    </style>
-  </head>
-  <body style="margin: 0; padding: 0; background-color: #f4f7fc;">
-    <!-- TABLE FOR WHOLE EMAIL BODY -->
-    <table
-      role="presentation"
-      style="
+<body style="margin: 0; padding: 0; background-color: #f4f7fc;">
+  <!-- TABLE FOR WHOLE EMAIL BODY -->
+  <table role="presentation" style="
         width: 100%;
         border-collapse: collapse;
         border: 0;
         border-spacing: 0;
         background: #f4f7fc;
         margin: 100px 0 50px;
-      "
-    >
-      <tr>
-        <td align="center" style="padding: 0">
-          <!-- TABLE FOR EMAIL BODY CONTENT -->
-          <table
-            role="presentation"
-            class="main-content"
-            style="
+      ">
+    <tr>
+      <td align="center" style="padding: 0">
+        <!-- TABLE FOR EMAIL BODY CONTENT -->
+        <table role="presentation" class="main-content" style="
               border-collapse: collapse;
               border-spacing: 0;
               text-align: left;
-            "
-          >
+            ">
           <!-- ROW FOR COMPANY NAME -->
-            <tr>
-              <td style="padding: 10px 0; text-align: right">
-                <span
-                  style="
+          <tr>
+            <td style="padding: 10px 0; text-align: right">
+              <span style="
                     color: #03a9f5;
                     font-weight: bold;
                     font-family: Arial, Helvetica, sans-serif;
-                  "
-                  >SourceOne</span
-                >
-                <span
-                  style="
+                  ">SourceOne</span>
+              <span style="
                     font-weight: bold;
                     font-family: Arial, Helvetica, sans-serif;
                     color: #818181;
-                  "
-                  >Finance Manager</span
-                >
-              </td>
-            </tr>
+                  ">Finance Manager</span>
+            </td>
+          </tr>
           <!-- END OF ROW FOR COMPANY NAME -->
 
           <!-- MARGIN BETWEEN ROWS -->
-            <tr>
-              <td
-                style="
+          <tr>
+            <td style="
                   line-height: 5px;
                   height: 5px;
                   mso-line-height-rule: exactly;
-                "
-              >
-                &nbsp;
-              </td>
-            </tr>
+                ">
+              &nbsp;
+            </td>
+          </tr>
           <!-- END MARGIN BETWEEN ROWS -->
 
           <!-- MAIN EMAIL CONTENT -->
-            <tr>
-              <td
-                align="center"
-                class="p-50"
-                style="
+          <tr>
+            <td align="center" class="p-50" style="
                   background: #ffffff;
                   border-radius: 5px;
-                "
-              >
-                <div
-                  style="margin: 20px 0;"
-                >
-                  <img src="./clap.svg" style="width:40px; height:40px;"/>
-                </div>
-                <div style="margin-bottom: 35px">
-                  <span style="display: block; margin-bottom: 5px">Hello #firstname</span>
-                  <span
-                    style="
+                ">
+              <div style="margin: 20px 0;">
+                <img src="./clap.svg" style="width:40px; height:40px;" />
+              </div>
+              <div style="margin-bottom: 35px">
+                <span style="display: block; margin-bottom: 5px">Hello #firstname</span>
+                <span style="
                       font-size: 18px;
                       font-weight: bold;
                       width: auto;
@@ -148,142 +126,123 @@
                       font-family: Arial, Helvetica, sans-serif;
                       border-bottom: 5px solid #fff041;
                       color: #5f5f5f;
-                    "
-                  >
-                    Welcome Onboard
-                  </span>
+                    ">
+                  Welcome Onboard
+                </span>
+              </div>
+              <div>
+                <p style="margin-bottom: 55px">We're excited to have you get started. First, we need you to confirm your
+                  account. Just press the button below</p>
+                <div style="margin-bottom: 55px;">
+                  <a class="button" href="http://">Confirm Your Account</a>
                 </div>
-                <div>
-                    <p style="margin-bottom: 55px">We're excited to have you get started. First, we need you to confirm your account. Just press the button below</p>
-                    <div style="margin-bottom: 55px;">
-                        <a class="button" href="http://">Confirm Your Account</a>
-                    </div>
-                    <p>Just in case the button does not work, copy and paste the following link in your browser:</p>
-                    <a href="http://sourceone-001-site2.etempurl.com/admin/dashboard" style="color:#03a9f5;">http://sourceone-001-site2.etempurl.com/admin/dashboard</a>
-                </div>
-              </td>
-            </tr>
+                <p>Just in case the button does not work, copy and paste the following link in your browser:</p>
+                <a href="http://sourceone-001-site2.etempurl.com/admin/dashboard"
+                  style="color:#03a9f5;">http://sourceone-001-site2.etempurl.com/admin/dashboard</a>
+              </div>
+            </td>
+          </tr>
           <!-- END OF MAIN EMAIL CONTENT -->
-            
+
           <!-- MARGIN BETWEEN ROWS -->
 
-            <tr>
-              <td
-                style="
+          <tr>
+            <td style="
                   line-height: 10px;
                   height: 10px;
                   mso-line-height-rule: exactly;
-                "
-              >
-                &nbsp;
-              </td>
-            </tr>
+                ">
+              &nbsp;
+            </td>
+          </tr>
 
           <!-- END OF MARGIN BETWEEN ROWS -->
 
           <!--EMAIL FOOTER -->
 
-            <tr>
-              <td
-                style="
+          <tr>
+            <td style="
                   padding: 20px;
                   background: #03a9f5;
                   color: #ffffff;
                   border-radius: 5px;
-                "
-              >
-                <table
-                  role="presentation"
-                  style="
+                ">
+              <table role="presentation" style="
                     width: 100%;
                     border-collapse: collapse;
                     border: 0;
                     border-spacing: 0;
-                  "
-                >
-                  <tr>
-                    <td
-                      style="
+                  ">
+                <tr>
+                  <td style="
                         width: 20%;
                         padding: 0;
                         vertical-align: top;
                         text-align: right;
-                      "
-                    >
-                      <a href="mailto:support@sourceonesolutions.com">
-                        <img
-                          src="./comments.svg"
-                          style="width: 50px; height: 50px"
-                        />
-                      </a>
-                    </td>
+                      ">
+                    <a href="mailto:support@sourceonesolutions.com">
+                      <img src="./comments.svg" style="width: 50px; height: 50px" />
+                    </a>
+                  </td>
 
-                    <td style="width: 3%"></td>
+                  <td style="width: 3%"></td>
 
-                    <td
-                      style="
+                  <td style="
                         width: 70%;
                         padding: 0;
                         vertical-align: top;
                         color: #ffffff;
-                      "
-                    >
-                      <span
-                        style="
+                      ">
+                    <span style="
                           font-weight: bold;
                           font-family: Arial, Helvetica, sans-serif;
-                        "
-                        >Need any help and you have any questions</span
-                      >
-                      <span
-                        >just click on the icon to reply this email and we are
-                        always happy to help you out</span
-                      >
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+                        ">Need any help and you have any questions</span>
+                    <span>just click on the icon to reply this email and we are
+                      always happy to help you out</span>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
 
           <!--END OF EMAIL FOOTER -->
 
           <!-- MARGIN BETWEEN ROWS -->
 
-            <tr>
-              <td
-                style="
+          <tr>
+            <td style="
                   line-height: 10px;
                   height: 10px;
                   mso-line-height-rule: exactly;
-                "
-              >
-                &nbsp;
-              </td>
-            </tr>
+                ">
+              &nbsp;
+            </td>
+          </tr>
 
           <!-- END OF MARGIN BETWEEN ROWS -->
 
           <!-- EMAIL SIGNATURE -->
 
-            <tr align="center">
-              <td>
-                <div style="width: 40px; height: 40px; margin: 20px 0 0">
-                  <img src="./pen.svg" style="width: 50px; height: 40px" />
-                </div>
-                <div style="color: #5f5f5f">
-                  <span style="font-weight: bold; font-family: Arial, Helvetica, sans-serif;">Cheers</span>
-                  <p style="margin-top:5px">SourceOne Team</p>
+          <tr align="center">
+            <td>
+              <div style="width: 40px; height: 40px; margin: 20px 0 0">
+                <img src="./pen.svg" style="width: 50px; height: 40px" />
+              </div>
+              <div style="color: #5f5f5f">
+                <span style="font-weight: bold; font-family: Arial, Helvetica, sans-serif;">Cheers</span>
+                <p style="margin-top:5px">SourceOne Team</p>
                 </divs>
-              </td>
-            </tr>
+            </td>
+          </tr>
 
           <!-- END OF EMAIL SIGNATURE -->
 
-          </table>
-          <!-- END TABLE FOR EMAIL BODY CONTENT -->
-        </td>
-      </tr>
-    </table>
-    <!-- END TABLE FOR WHOLE EMAIL BODY -->
-  </body>
+        </table>
+        <!-- END TABLE FOR EMAIL BODY CONTENT -->
+      </td>
+    </tr>
+  </table>
+  <!-- END TABLE FOR WHOLE EMAIL BODY -->
+</body>
+
 </html>
